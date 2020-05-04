@@ -14,5 +14,7 @@ describe ('#ping_pong') do
     expect(ping_pong(5)).to(eq([1,2,'ping',4,'pong']))
   end
 
-  it("numbers are replaced with 'ping'and 'pong' ")
-end 
+  it("numbers are replaced with 'ping'and 'pong' properly") do
+    expect(ping_pong(11)).to(eq([1,2,'ping',4,'pong','ping',7,8,'ping','pong',11])
+  end 
+end
