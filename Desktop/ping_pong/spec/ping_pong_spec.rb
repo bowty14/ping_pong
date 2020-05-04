@@ -23,6 +23,6 @@ describe ('#ping_pong') do
   end
 
   it("user enters numbers less zero") do
-    expect(ping_pong(-1)).to(eq(["enter number greater than zero"]))
+    expect(ping_pong(-1)).to(eq(["enter a number greater than 0"]))
   end
 end
