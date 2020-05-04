@@ -1,7 +1,7 @@
   #!/usr/bin/env ruby
   require('pry')
 
-  def ping_pong()
+  def ping_pong(x)
     x = 0
     array = []
     while (x < 3)
