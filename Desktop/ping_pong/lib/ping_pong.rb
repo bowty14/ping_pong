@@ -6,6 +6,9 @@
     array = []
     while (x < 3)
       x = x +1 
+      if (x%3 === 0)
+        x = "ping"
+      else
       array.push(x)
     end
     array
