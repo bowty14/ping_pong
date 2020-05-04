@@ -7,9 +7,9 @@
     x = 0 
     while (x < num)
       x = x +1 
-      # if (num == "") | (num < 0)
-      #   array.push('enter a number greater than 0')
-      # end
+      if (num == "") | (num < 0)
+        array.push('enter a number greater than 0')
+      end
       if (x % 3 == 0) & (x % 5 == 0)
         array.push('ping pong')
       elsif x % 3 == 0
