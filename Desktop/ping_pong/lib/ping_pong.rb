@@ -1,15 +1,16 @@
   #!/usr/bin/env ruby
   require('pry')
 
-  def ping_pong(x)
-    x = 0
+  def ping_pong(num)
     array = []
-    while (x < 3)
+    x = 0 
+    while (x < num)
       x = x +1 
-      if (x%3 === 0)
-        x = "ping"
+      if x % 3 == 0
+        array.push('ping')
       else
-      array.push(x)
+        array.push(x)
+      end
     end
     array
   end
