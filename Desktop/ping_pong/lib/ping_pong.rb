@@ -7,8 +7,8 @@
     x = 0 
     while (x < num)
       x = x +1 
-      if x % 3 & 5 == 0
-        
+      if x % 3 == 0 & x % 5 == 0
+        array.push('ping pong')
       elsif x % 3 == 0
         array.push('ping')
       elsif x % 5 == 0
